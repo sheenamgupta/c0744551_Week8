@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div>Content goes here.</div>
+    <h1>challenge 1</h1>
+    <script>
+        //Sheenam Gupta c0744551
+        //Prabhjot Singh c0744287
+        var sum = 0;
+        for (var num = 1109; num >= 119; num -= 11) {
+            sum = sum + num;
+        }
+        document.write(sum+"<hr><h1>using functions</h1>");
+
+        function addNum(start, end) {
+            var sum = 0;
+                for(var i = start; i>= end; i-= 11)
+            {
+                sum = sum + i;
+                
+            }
+            document.write(sum);
+        }
+        
+
+        addNum(1109, 119);   
+        
+    </script>
+</body>
+</html>
