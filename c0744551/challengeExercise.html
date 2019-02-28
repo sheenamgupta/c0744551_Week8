@@ -27,10 +27,12 @@
         
 
         addNum(1109, 119);   
-        document.write("<h1>challenge3</h1>");
+        document.write("<h1>challenge2</h1>");
         var start1 = prompt("Please enter start number");
+        var start3 = parseInt(start1)
         var sum1 = 0;
-        for (var num = start1; num >= 119; num -= 11) {
+        for (var num = start3; num >= 119; num -= 11)
+        {
             sum1 = sum1 + num;
         }
         document.write(sum1);
