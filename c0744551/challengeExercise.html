@@ -16,18 +16,24 @@
         document.write(sum+"<hr><h1>using functions</h1>");
 
         function addNum(start, end) {
-            var sum = 0;
+            var sum2 = 0;
                 for(var i = start; i>= end; i-= 11)
             {
-                sum = sum + i;
+                sum2 = sum2 + i;
                 
             }
-            document.write(sum);
+            document.write(sum2);
         }
         
 
         addNum(1109, 119);   
-        
+        document.write("<h1>challenge3</h1>");
+        var start1 = prompt("Please enter start number");
+        var sum1 = 0;
+        for (var num = start1; num >= 119; num -= 11) {
+            sum1 = sum1 + num;
+        }
+        document.write(sum1);
     </script>
 </body>
 </html>
